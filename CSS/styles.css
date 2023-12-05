@@ -17,6 +17,11 @@
     font-family: "Poppins";
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
 .main {
     padding-left: 10px;
     padding-right: 10px;
@@ -67,6 +72,12 @@ h3 {
 }
 
 h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+h6 {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1;
@@ -130,4 +141,14 @@ li:hover {
 
 .button:active {
     outline-color: var(--secondary);
+}
+
+.back {
+    position: absolute;
+    left: calc(100% - 130px);
+    top: 16px;
+}
+
+.bright {
+    color: var(--bright);
 }
