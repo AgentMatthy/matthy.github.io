@@ -45,7 +45,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     white-space: nowrap;
-    gap: 15px;
+    row-gap: 0;
+    column-gap: 60px;
 }
 
 .group {
