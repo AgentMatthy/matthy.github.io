@@ -12,6 +12,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: Outfit;
 }
 
 body {
@@ -20,9 +21,14 @@ body {
 }
 
 .welcome_d {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
+}
 
-    align-items: center;
-    justify-content: center;
+.welcome_d h1 {
+    padding-top: 3rem;
+    font-size: 4rem;
 }
