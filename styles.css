@@ -20,15 +20,16 @@ body {
     color: var(--white);
 }
 
-.welcome_d {
+.main {
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding: 4rem;
 }
 
-.welcome_d h1 {
+.main h1 {
     padding-top: 3rem;
     font-size: 4rem;
 }
